@@ -1,0 +1,110 @@
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\bin\Release\ODSJournal.exe.config
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\bin\Release\ODSJournal.exe
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\bin\Release\ODSJournal.pdb
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Auth.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Main.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Progress.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Properties.Resources.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Address.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Address.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Clients.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Clients.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Damages.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Damages.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Powers.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Powers.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Problems.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Problems.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Search.Search.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Uchs.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Uchs.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.exe
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.pdb
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Substations.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Substations.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Fiders.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Fiders.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Monters.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Monters.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.TPWizard.Wizard.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Objects.Editor.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Objects.Viewer.resources
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\bin\Release\Microsoft.Office.Interop.SmartTag.dll
+C:\Documents and Settings\local\Рабочий стол\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.PrintInfo.PrintInfo.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\bin\Release\ODSJournal.exe.config
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.exe
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.pdb
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\bin\Release\ODSJournal.exe
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\bin\Release\ODSJournal.pdb
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\bin\Release\Microsoft.Office.Interop.SmartTag.dll
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.csprojResolveAssemblyReference.cache
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Auth.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Main.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Progress.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Properties.Resources.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Address.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Address.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Clients.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Clients.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Damages.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Damages.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Fiders.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Fiders.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Monters.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Monters.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Objects.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Objects.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Powers.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Powers.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.PrintInfo.PrintInfo.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Problems.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Problems.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Search.Search.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Substations.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Substations.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.TPWizard.Wizard.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Uchs.Editor.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Uchs.Viewer.resources
+C:\Users\local\Desktop\ODS\ODSJournal\ODSJournal\obj\x86\Release\ODSJournal.csproj.GenerateResource.Cache
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\bin\Release\ODSJournal.exe.config
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.exe
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.pdb
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\bin\Release\ODSJournal.exe
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\bin\Release\ODSJournal.pdb
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\bin\Release\Microsoft.Office.Interop.SmartTag.dll
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.csprojResolveAssemblyReference.cache
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Auth.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Main.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Progress.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Properties.Resources.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Address.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Address.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Clients.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Clients.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Damages.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Damages.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Fiders.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Fiders.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Monters.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Monters.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Objects.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Objects.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Powers.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Powers.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.PrintInfo.PrintInfo.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Problems.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Problems.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Search.Search.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Substations.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Substations.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.TPWizard.Wizard.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Uchs.Editor.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Views.Common.Uchs.Viewer.resources
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.csproj.GenerateResource.Cache
+C:\Users\local\Desktop\repository\ODS\j2\ODSJournal\obj\x86\Release\ODSJournal.Error.resources

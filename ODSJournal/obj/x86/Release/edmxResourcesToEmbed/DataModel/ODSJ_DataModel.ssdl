@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ODSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ODSModelStoreContainer">
+    <EntitySet Name="ODS_Address" EntityType="ODSModel.Store.ODS_Address" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Clients" EntityType="ODSModel.Store.ODS_Clients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Damages" EntityType="ODSModel.Store.ODS_Damages" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Fidres" EntityType="ODSModel.Store.ODS_Fidres" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Journal" EntityType="ODSModel.Store.ODS_Journal" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Monters" EntityType="ODSModel.Store.ODS_Monters" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Objects" EntityType="ODSModel.Store.ODS_Objects" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Powers" EntityType="ODSModel.Store.ODS_Powers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_PrintedEntries" EntityType="ODSModel.Store.ODS_PrintedEntries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Problems" EntityType="ODSModel.Store.ODS_Problems" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Roles" EntityType="ODSModel.Store.ODS_Roles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Substations" EntityType="ODSModel.Store.ODS_Substations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Uchs" EntityType="ODSModel.Store.ODS_Uchs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ODS_Users" EntityType="ODSModel.Store.ODS_Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_ODS_Address_ODS_Uchs" Association="ODSModel.Store.FK_ODS_Address_ODS_Uchs">
+      <End Role="ODS_Uchs" EntitySet="ODS_Uchs" />
+      <End Role="ODS_Address" EntitySet="ODS_Address" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Fidres_ODS_Substations" Association="ODSModel.Store.FK_ODS_Fidres_ODS_Substations">
+      <End Role="ODS_Substations" EntitySet="ODS_Substations" />
+      <End Role="ODS_Fidres" EntitySet="ODS_Fidres" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Address" Association="ODSModel.Store.FK_ODS_Journal_ODS_Address">
+      <End Role="ODS_Address" EntitySet="ODS_Address" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Clients" Association="ODSModel.Store.FK_ODS_Journal_ODS_Clients">
+      <End Role="ODS_Clients" EntitySet="ODS_Clients" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Damages" Association="ODSModel.Store.FK_ODS_Journal_ODS_Damages">
+      <End Role="ODS_Damages" EntitySet="ODS_Damages" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Monters" Association="ODSModel.Store.FK_ODS_Journal_ODS_Monters">
+      <End Role="ODS_Monters" EntitySet="ODS_Monters" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Objects" Association="ODSModel.Store.FK_ODS_Journal_ODS_Objects">
+      <End Role="ODS_Objects" EntitySet="ODS_Objects" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Powers" Association="ODSModel.Store.FK_ODS_Journal_ODS_Powers">
+      <End Role="ODS_Powers" EntitySet="ODS_Powers" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Problems" Association="ODSModel.Store.FK_ODS_Journal_ODS_Problems">
+      <End Role="ODS_Problems" EntitySet="ODS_Problems" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Users" Association="ODSModel.Store.FK_ODS_Journal_ODS_Users">
+      <End Role="ODS_Users" EntitySet="ODS_Users" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Journal_ODS_Users1" Association="ODSModel.Store.FK_ODS_Journal_ODS_Users1">
+      <End Role="ODS_Users" EntitySet="ODS_Users" />
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Powers_ODS_Fidres" Association="ODSModel.Store.FK_ODS_Powers_ODS_Fidres">
+      <End Role="ODS_Fidres" EntitySet="ODS_Fidres" />
+      <End Role="ODS_Powers" EntitySet="ODS_Powers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_PrintedEntries_ODS_Journal" Association="ODSModel.Store.FK_ODS_PrintedEntries_ODS_Journal">
+      <End Role="ODS_Journal" EntitySet="ODS_Journal" />
+      <End Role="ODS_PrintedEntries" EntitySet="ODS_PrintedEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_PrintedEntries_ODS_Users" Association="ODSModel.Store.FK_ODS_PrintedEntries_ODS_Users">
+      <End Role="ODS_Users" EntitySet="ODS_Users" />
+      <End Role="ODS_PrintedEntries" EntitySet="ODS_PrintedEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Substations_ODS_Uchs" Association="ODSModel.Store.FK_ODS_Substations_ODS_Uchs">
+      <End Role="ODS_Uchs" EntitySet="ODS_Uchs" />
+      <End Role="ODS_Substations" EntitySet="ODS_Substations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ODS_Users_ODS_Roles" Association="ODSModel.Store.FK_ODS_Users_ODS_Roles">
+      <End Role="ODS_Roles" EntitySet="ODS_Roles" />
+      <End Role="ODS_Users" EntitySet="ODS_Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ODS_Address">
+    <Key>
+      <PropertyRef Name="AddressId" />
+    </Key>
+    <Property Name="AddressId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UchId" Type="int" />
+    <Property Name="Address" Type="char" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="ODS_Clients">
+    <Key>
+      <PropertyRef Name="ClientId" />
+    </Key>
+    <Property Name="ClientId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClientFIO" Type="char" Nullable="false" MaxLength="100" />
+    <Property Name="ClientPhone" Type="char" MaxLength="20" />
+    <Property Name="ClientHomeNum" Type="int" />
+    <Property Name="AddressId" Type="int" />
+    <Property Name="Liter" Type="char" MaxLength="2" />
+    <Property Name="Entrance" Type="int" />
+    <Property Name="Room" Type="int" />
+  </EntityType>
+  <EntityType Name="ODS_Damages">
+    <Key>
+      <PropertyRef Name="DamageId" />
+    </Key>
+    <Property Name="DamageId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Damage" Type="char" Nullable="false" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="ODS_Fidres">
+    <Key>
+      <PropertyRef Name="FiderId" />
+    </Key>
+    <Property Name="FiderId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubstationId" Type="int" Nullable="false" />
+    <Property Name="FiderName" Type="char" Nullable="false" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="ODS_Journal">
+    <Key>
+      <PropertyRef Name="JournalId" />
+    </Key>
+    <Property Name="JournalId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="EntryId" Type="int" Nullable="false" />
+    <Property Name="RecieveDate" Type="date" Nullable="false" />
+    <Property Name="RecieveTime" Type="time" Nullable="false" />
+    <Property Name="AddressId" Type="int" Nullable="false" />
+    <Property Name="ObjectId" Type="int" Nullable="false" />
+    <Property Name="HNum" Type="char" MaxLength="30" />
+    <Property Name="ClientPlainName" Type="char" Nullable="false" MaxLength="100" />
+    <Property Name="ClientId" Type="int" />
+    <Property Name="ClientTelephone" Type="char" Nullable="false" MaxLength="20" />
+    <Property Name="ProblemId" Type="int" Nullable="false" />
+    <Property Name="OpenComment" Type="text" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="DateComplete" Type="date" />
+    <Property Name="TimeComplete" Type="time" />
+    <Property Name="PowerId" Type="int" />
+    <Property Name="DamageId" Type="int" />
+    <Property Name="Comment" Type="text" />
+    <Property Name="ComplUserId" Type="int" />
+    <Property Name="MonterId" Type="int" />
+  </EntityType>
+  <EntityType Name="ODS_Monters">
+    <Key>
+      <PropertyRef Name="MonterId" />
+    </Key>
+    <Property Name="MonterId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MonerFIO" Type="char" Nullable="false" MaxLength="100" />
+    <Property Name="MonterPhone" Type="char" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ODS_Objects">
+    <Key>
+      <PropertyRef Name="ObjectId" />
+    </Key>
+    <Property Name="ObjectId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Object" Type="char" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ODS_Powers">
+    <Key>
+      <PropertyRef Name="PowerId" />
+    </Key>
+    <Property Name="PowerId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FiderId" Type="int" Nullable="false" />
+    <Property Name="Power" Type="char" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ODS_PrintedEntries">
+    <Key>
+      <PropertyRef Name="PrinterdId" />
+    </Key>
+    <Property Name="PrinterdId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="JournalId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="PrintDateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ODS_Problems">
+    <Key>
+      <PropertyRef Name="ProblemId" />
+    </Key>
+    <Property Name="ProblemId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Problem" Type="char" Nullable="false" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="ODS_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Role" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ODS_Substations">
+    <Key>
+      <PropertyRef Name="SubstationId" />
+    </Key>
+    <Property Name="SubstationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SubstationName" Type="char" Nullable="false" MaxLength="150" />
+    <Property Name="UchId" Type="int" />
+  </EntityType>
+  <EntityType Name="ODS_Uchs">
+    <Key>
+      <PropertyRef Name="UchId" />
+    </Key>
+    <Property Name="UchId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UchName" Type="char" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="ODS_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="Login" Type="char" Nullable="false" MaxLength="50" />
+    <Property Name="Password" Type="char" Nullable="false" MaxLength="50" />
+    <Property Name="FIO" Type="text" Nullable="false" />
+    <Property Name="MonterFIO" Type="char" MaxLength="50" />
+    <Property Name="MonterPhone" Type="char" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_ODS_Address_ODS_Uchs">
+    <End Role="ODS_Uchs" Type="ODSModel.Store.ODS_Uchs" Multiplicity="0..1" />
+    <End Role="ODS_Address" Type="ODSModel.Store.ODS_Address" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Uchs">
+        <PropertyRef Name="UchId" />
+      </Principal>
+      <Dependent Role="ODS_Address">
+        <PropertyRef Name="UchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Fidres_ODS_Substations">
+    <End Role="ODS_Substations" Type="ODSModel.Store.ODS_Substations" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ODS_Fidres" Type="ODSModel.Store.ODS_Fidres" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Substations">
+        <PropertyRef Name="SubstationId" />
+      </Principal>
+      <Dependent Role="ODS_Fidres">
+        <PropertyRef Name="SubstationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Address">
+    <End Role="ODS_Address" Type="ODSModel.Store.ODS_Address" Multiplicity="1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Address">
+        <PropertyRef Name="AddressId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Clients">
+    <End Role="ODS_Clients" Type="ODSModel.Store.ODS_Clients" Multiplicity="0..1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Clients">
+        <PropertyRef Name="ClientId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="ClientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Damages">
+    <End Role="ODS_Damages" Type="ODSModel.Store.ODS_Damages" Multiplicity="0..1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Damages">
+        <PropertyRef Name="DamageId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="DamageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Monters">
+    <End Role="ODS_Monters" Type="ODSModel.Store.ODS_Monters" Multiplicity="0..1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Monters">
+        <PropertyRef Name="MonterId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="MonterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Objects">
+    <End Role="ODS_Objects" Type="ODSModel.Store.ODS_Objects" Multiplicity="1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Objects">
+        <PropertyRef Name="ObjectId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="ObjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Powers">
+    <End Role="ODS_Powers" Type="ODSModel.Store.ODS_Powers" Multiplicity="0..1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Powers">
+        <PropertyRef Name="PowerId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="PowerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Problems">
+    <End Role="ODS_Problems" Type="ODSModel.Store.ODS_Problems" Multiplicity="1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Problems">
+        <PropertyRef Name="ProblemId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="ProblemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Users">
+    <End Role="ODS_Users" Type="ODSModel.Store.ODS_Users" Multiplicity="1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Journal_ODS_Users1">
+    <End Role="ODS_Users" Type="ODSModel.Store.ODS_Users" Multiplicity="0..1" />
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ODS_Journal">
+        <PropertyRef Name="ComplUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Powers_ODS_Fidres">
+    <End Role="ODS_Fidres" Type="ODSModel.Store.ODS_Fidres" Multiplicity="1" />
+    <End Role="ODS_Powers" Type="ODSModel.Store.ODS_Powers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Fidres">
+        <PropertyRef Name="FiderId" />
+      </Principal>
+      <Dependent Role="ODS_Powers">
+        <PropertyRef Name="FiderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_PrintedEntries_ODS_Journal">
+    <End Role="ODS_Journal" Type="ODSModel.Store.ODS_Journal" Multiplicity="1" />
+    <End Role="ODS_PrintedEntries" Type="ODSModel.Store.ODS_PrintedEntries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Journal">
+        <PropertyRef Name="JournalId" />
+      </Principal>
+      <Dependent Role="ODS_PrintedEntries">
+        <PropertyRef Name="JournalId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_PrintedEntries_ODS_Users">
+    <End Role="ODS_Users" Type="ODSModel.Store.ODS_Users" Multiplicity="1" />
+    <End Role="ODS_PrintedEntries" Type="ODSModel.Store.ODS_PrintedEntries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ODS_PrintedEntries">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Substations_ODS_Uchs">
+    <End Role="ODS_Uchs" Type="ODSModel.Store.ODS_Uchs" Multiplicity="0..1" />
+    <End Role="ODS_Substations" Type="ODSModel.Store.ODS_Substations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Uchs">
+        <PropertyRef Name="UchId" />
+      </Principal>
+      <Dependent Role="ODS_Substations">
+        <PropertyRef Name="UchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ODS_Users_ODS_Roles">
+    <End Role="ODS_Roles" Type="ODSModel.Store.ODS_Roles" Multiplicity="1" />
+    <End Role="ODS_Users" Type="ODSModel.Store.ODS_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ODS_Roles">
+        <PropertyRef Name="RoleId" />
+      </Principal>
+      <Dependent Role="ODS_Users">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
