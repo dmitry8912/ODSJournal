@@ -1456,5 +1456,10 @@ namespace ODSJournal
             Error err = new Error(this._uchId, this._addressId);
             err.Show();
         }
+
+        private void Tab_Journal_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

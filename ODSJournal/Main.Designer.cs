@@ -55,6 +55,7 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.Tool_Load = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.dPanel_user = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusString = new System.Windows.Forms.StatusStrip();
             this.TabC_Journal = new System.Windows.Forms.TabControl();
@@ -126,7 +127,7 @@
             this.Comment = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UserFIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ComplUser = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.menuString.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusString.SuspendLayout();
@@ -139,6 +140,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.num_CD_Day)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_CT_Hour)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Tab_Journal)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuString
@@ -338,6 +340,17 @@
             this.Tool_Load.Text = "Загрузить";
             this.Tool_Load.Click += new System.EventHandler(this.Tool_Load_Click);
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(56, 22);
+            this.toolStripButton1.Text = "ОШИБКА";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
             // dPanel_user
             // 
             this.dPanel_user.Name = "dPanel_user";
@@ -357,14 +370,16 @@
             // 
             // TabC_Journal
             // 
+            this.TabC_Journal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TabC_Journal.Controls.Add(this.TPage_AddJEntry);
             this.TabC_Journal.Controls.Add(this.TPage_CloseEntry);
-            this.TabC_Journal.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.TabC_Journal.Location = new System.Drawing.Point(0, 428);
+            this.TabC_Journal.Location = new System.Drawing.Point(3, 370);
             this.TabC_Journal.Name = "TabC_Journal";
             this.TabC_Journal.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.TabC_Journal.SelectedIndex = 0;
-            this.TabC_Journal.Size = new System.Drawing.Size(1031, 141);
+            this.TabC_Journal.Size = new System.Drawing.Size(1021, 141);
             this.TabC_Journal.TabIndex = 6;
             // 
             // TPage_AddJEntry
@@ -400,7 +415,7 @@
             this.TPage_AddJEntry.Location = new System.Drawing.Point(4, 22);
             this.TPage_AddJEntry.Name = "TPage_AddJEntry";
             this.TPage_AddJEntry.Padding = new System.Windows.Forms.Padding(3);
-            this.TPage_AddJEntry.Size = new System.Drawing.Size(1023, 115);
+            this.TPage_AddJEntry.Size = new System.Drawing.Size(1013, 115);
             this.TPage_AddJEntry.TabIndex = 0;
             this.TPage_AddJEntry.Text = "Создать заявку";
             this.TPage_AddJEntry.UseVisualStyleBackColor = true;
@@ -970,7 +985,7 @@
             this.Tab_Journal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Tab_Journal.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.Tab_Journal.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -979,7 +994,6 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.Tab_Journal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.Tab_Journal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Tab_Journal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.WFlag,
             this.OFlag,
@@ -1006,11 +1020,12 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.Tab_Journal.DefaultCellStyle = dataGridViewCellStyle4;
-            this.Tab_Journal.Location = new System.Drawing.Point(0, 49);
+            this.Tab_Journal.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.Tab_Journal.Location = new System.Drawing.Point(3, 3);
             this.Tab_Journal.Name = "Tab_Journal";
-            this.Tab_Journal.ReadOnly = true;
-            this.Tab_Journal.Size = new System.Drawing.Size(1031, 367);
+            this.Tab_Journal.Size = new System.Drawing.Size(1021, 361);
             this.Tab_Journal.TabIndex = 5;
+            this.Tab_Journal.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Tab_Journal_CellContentClick);
             this.Tab_Journal.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Tab_Journal_RowHeaderMouseClick);
             this.Tab_Journal.RowHeaderMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Tab_Journal_RowHeaderMouseDoubleClick);
             // 
@@ -1018,21 +1033,18 @@
             // 
             this.WFlag.HeaderText = "";
             this.WFlag.Name = "WFlag";
-            this.WFlag.ReadOnly = true;
             this.WFlag.Width = 5;
             // 
             // OFlag
             // 
             this.OFlag.HeaderText = "";
             this.OFlag.Name = "OFlag";
-            this.OFlag.ReadOnly = true;
             this.OFlag.Width = 5;
             // 
             // PFlag
             // 
             this.PFlag.HeaderText = "";
             this.PFlag.Name = "PFlag";
-            this.PFlag.ReadOnly = true;
             this.PFlag.Width = 5;
             // 
             // JournalId
@@ -1040,110 +1052,103 @@
             this.JournalId.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
             this.JournalId.HeaderText = "JournalId";
             this.JournalId.Name = "JournalId";
-            this.JournalId.ReadOnly = true;
             this.JournalId.Visible = false;
             // 
             // Entry
             // 
             this.Entry.HeaderText = "№";
             this.Entry.Name = "Entry";
-            this.Entry.ReadOnly = true;
             this.Entry.Width = 43;
             // 
             // RecieveDate
             // 
             this.RecieveDate.HeaderText = "Дата";
             this.RecieveDate.Name = "RecieveDate";
-            this.RecieveDate.ReadOnly = true;
             this.RecieveDate.Width = 58;
             // 
             // RecieveTime
             // 
             this.RecieveTime.HeaderText = "Время";
             this.RecieveTime.Name = "RecieveTime";
-            this.RecieveTime.ReadOnly = true;
             this.RecieveTime.Width = 65;
             // 
             // Uch
             // 
             this.Uch.HeaderText = "Участок";
             this.Uch.Name = "Uch";
-            this.Uch.ReadOnly = true;
             this.Uch.Width = 74;
             // 
             // Address
             // 
             this.Address.HeaderText = "Адрес";
             this.Address.Name = "Address";
-            this.Address.ReadOnly = true;
             this.Address.Width = 63;
             // 
             // HNum
             // 
             this.HNum.HeaderText = "№ дома";
             this.HNum.Name = "HNum";
-            this.HNum.ReadOnly = true;
             this.HNum.Width = 72;
             // 
             // Object
             // 
             this.Object.HeaderText = "Объект";
             this.Object.Name = "Object";
-            this.Object.ReadOnly = true;
             this.Object.Width = 70;
             // 
             // Problem
             // 
             this.Problem.HeaderText = "Обращение";
             this.Problem.Name = "Problem";
-            this.Problem.ReadOnly = true;
             this.Problem.Width = 91;
             // 
             // ClientName
             // 
             this.ClientName.HeaderText = "Потребитель";
             this.ClientName.Name = "ClientName";
-            this.ClientName.ReadOnly = true;
             this.ClientName.Width = 98;
             // 
             // CTel
             // 
             this.CTel.HeaderText = "Телефон";
             this.CTel.Name = "CTel";
-            this.CTel.ReadOnly = true;
             this.CTel.Width = 77;
             // 
             // Comment
             // 
             this.Comment.HeaderText = "Примечание";
             this.Comment.Name = "Comment";
-            this.Comment.ReadOnly = true;
             this.Comment.Width = 95;
             // 
             // UserFIO
             // 
             this.UserFIO.HeaderText = "Принявший";
             this.UserFIO.Name = "UserFIO";
-            this.UserFIO.ReadOnly = true;
             this.UserFIO.Width = 90;
             // 
             // ComplUser
             // 
             this.ComplUser.HeaderText = "Закрывший";
             this.ComplUser.Name = "ComplUser";
-            this.ComplUser.ReadOnly = true;
             this.ComplUser.Width = 91;
             // 
-            // toolStripButton1
+            // tableLayoutPanel1
             // 
-            this.toolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(56, 22);
-            this.toolStripButton1.Text = "ОШИБКА";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.TabC_Journal, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Tab_Journal, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 52);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 71.40078F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.59922F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1027, 514);
+            this.tableLayoutPanel1.TabIndex = 7;
             // 
             // Main
             // 
@@ -1151,8 +1156,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1031, 591);
-            this.Controls.Add(this.TabC_Journal);
-            this.Controls.Add(this.Tab_Journal);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusString);
             this.Controls.Add(this.menuString);
@@ -1179,6 +1183,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.num_CD_Day)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_CT_Hour)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Tab_Journal)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1282,6 +1287,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn UserFIO;
         private System.Windows.Forms.DataGridViewTextBoxColumn ComplUser;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 
     }
 }
