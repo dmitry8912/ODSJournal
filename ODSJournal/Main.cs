@@ -471,6 +471,13 @@ namespace ODSJournal
             };
             jEntries = null;
             str = null;
+
+            if (true)
+            {
+                Watcher.m = this;
+                Watcher.getInstance().setLastJid(Convert.ToInt32(Tab_Journal.Rows[0].Cells[4].Value.ToString()));
+                Watcher.getInstance().watch();
+            };
         }
 
         #endregion

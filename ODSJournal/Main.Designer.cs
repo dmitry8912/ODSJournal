@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuString = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.сменаПользователяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -354,17 +354,17 @@
             // dPanel_user
             // 
             this.dPanel_user.Name = "dPanel_user";
-            this.dPanel_user.Size = new System.Drawing.Size(83, 17);
+            this.dPanel_user.Size = new System.Drawing.Size(83, 16);
             this.dPanel_user.Text = "Пользователь:";
             // 
             // statusString
             // 
             this.statusString.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dPanel_user});
-            this.statusString.Location = new System.Drawing.Point(0, 569);
+            this.statusString.Location = new System.Drawing.Point(0, 515);
             this.statusString.Name = "statusString";
             this.statusString.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.statusString.Size = new System.Drawing.Size(1031, 22);
+            this.statusString.Size = new System.Drawing.Size(1027, 21);
             this.statusString.TabIndex = 0;
             this.statusString.Text = "statusString";
             // 
@@ -375,7 +375,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TabC_Journal.Controls.Add(this.TPage_AddJEntry);
             this.TabC_Journal.Controls.Add(this.TPage_CloseEntry);
-            this.TabC_Journal.Location = new System.Drawing.Point(3, 370);
+            this.TabC_Journal.Location = new System.Drawing.Point(3, 371);
             this.TabC_Journal.Name = "TabC_Journal";
             this.TabC_Journal.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.TabC_Journal.SelectedIndex = 0;
@@ -986,14 +986,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Tab_Journal.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Tab_Journal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Tab_Journal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.Tab_Journal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.WFlag,
             this.OFlag,
@@ -1012,18 +1012,18 @@
             this.Comment,
             this.UserFIO,
             this.ComplUser});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Tab_Journal.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Tab_Journal.DefaultCellStyle = dataGridViewCellStyle2;
             this.Tab_Journal.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.Tab_Journal.Location = new System.Drawing.Point(3, 3);
             this.Tab_Journal.Name = "Tab_Journal";
-            this.Tab_Journal.Size = new System.Drawing.Size(1021, 361);
+            this.Tab_Journal.Size = new System.Drawing.Size(1021, 362);
             this.Tab_Journal.TabIndex = 5;
             this.Tab_Journal.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Tab_Journal_CellContentClick);
             this.Tab_Journal.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Tab_Journal_RowHeaderMouseClick);
@@ -1137,28 +1137,30 @@
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.AutoScroll = true;
             this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.TabC_Journal, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.Tab_Journal, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.statusString, 0, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 52);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 71.40078F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.59922F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1027, 514);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1027, 536);
             this.tableLayoutPanel1.TabIndex = 7;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1031, 591);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.statusString);
             this.Controls.Add(this.menuString);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuStrip = this.menuString;
@@ -1184,6 +1186,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.num_CT_Hour)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Tab_Journal)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

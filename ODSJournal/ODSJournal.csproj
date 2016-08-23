@@ -251,6 +251,7 @@
     <Compile Include="Views\Common\Uchs\Viewer.Designer.cs">
       <DependentUpon>Viewer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Watcher.cs" />
     <EmbeddedResource Include="Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>
     </EmbeddedResource>
