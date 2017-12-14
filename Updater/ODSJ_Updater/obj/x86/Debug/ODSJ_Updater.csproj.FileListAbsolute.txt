@@ -1,0 +1,10 @@
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\bin\Debug\ODSJ_Updater.exe
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\bin\Debug\ODSJ_Updater.pdb
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\obj\x86\Debug\ODSJ_Updater.Properties.Resources.resources
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\obj\x86\Debug\ODSJ_Updater.exe
+c:\documents and settings\local\мои документы\visual studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\obj\x86\Debug\ODSJ_Updater.pdb
+C:\Documents and Settings\local\Мои документы\Visual Studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\bin\Debug\update.ini
+C:\Documents and Settings\local\Мои документы\Visual Studio 2010\Projects\ODSJ_Updater\ODSJ_Updater\obj\x86\Debug\ODSJ_Updater.Update.resources
